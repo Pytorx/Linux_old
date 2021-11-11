@@ -11,6 +11,8 @@ systemctl service nginx stop
 apt install apache2 -y
 apt install php php-cgi php-mysqli php-pear php-mbstring php-gettext libapache2-mod-php php-common php-phpseclib php-mysql -y
 apt install mariadb-server mariadb-client -y
+
+# the automation behind it isn't working
 mysql_secure_installation -Y -n -Y -Y -n -y
 
 # installing & configuring phpMyAdmin
